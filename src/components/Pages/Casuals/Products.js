@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { AddItem } from "../Cart/Cart";
 
 const Products = ({ product }) => {
   return (
@@ -26,7 +25,7 @@ const Products = ({ product }) => {
                  <Link to={`/casualproduct/${data.id}`}>
                  <Button className="commonBtn border rounded-0 shadow-none mt-3 w-100">View Detail</Button>
                  </Link>
-                 <Button className="commonBtn border rounded-0 shadow-none mt-3 w-100" onClick={()=>AddItem(data)}>Add to Cart</Button>
+                 <Button className="commonBtn border rounded-0 shadow-none mt-3 w-100">Add to Cart</Button>
                 </Card.Body>
               </Card>
             </Col>
