@@ -20,8 +20,8 @@ export const ProductData = [
         type : 'unstitched',
         season : 'winter',
         rating : 3,
-        img1 : '/assests/images/bareezeMan/manOffWhite1.jpg',
-        img2 : '/assests/images/bareezeMan/manOffWhite2.jpg',
+        img1 : 'https://drive.google.com/file/d/18aPZoPq1h_PZJXcAD3ncPnO4E7JXZfoj/view?usp=sharing',
+        img2 : 'https://drive.google.com/file/d/1ss7ziCVXmmz2v06foQj3hDcTOcwz9ANZ/view?usp=sharing',
         description : 'lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text',
 
     },
